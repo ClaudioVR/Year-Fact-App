@@ -1,0 +1,40 @@
+/* style.css */
+
+
+.card,
+.container {
+  animation: intoView 2s .5s forwards;
+  opacity: 0;
+}
+
+body {
+  position: relative;
+}
+
+ .toast {
+  transition: all 2s;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  z-index: 1;
+}
+
+@keyframes intoView {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#fact {
+  display: none;
+}
+
+.container {
+  height: 100vh;
+  background-image: url('./apple-delicious-food-1630588.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
