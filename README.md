@@ -1,5 +1,12 @@
 # Year Fact App
 
+NB: due to the numbers-api-website I make the api request to not having HTTPS, the app does not work whilst hosted on GitHub. You can still view it by clicking on the link below.
+.
+.
+.
+.
+
+
 A fun fact finding app. Enter any year, (be it negative or in the future) and get a fun fact.
 
 Built using Fetch API.
